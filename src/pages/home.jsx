@@ -1,7 +1,7 @@
-import React from 'react';
+
 import Header from "../components/header/header";
 import Input from "../components/tweet-editor/tweet-editor";
-import Tweets from "../components/tweets/tweets";
+import Tweets from "../components/tweets";
 import SideBars from "../components/sideBar/SideBar";
 import TrendingList from '../components/trends/Trending.jsx'
 
