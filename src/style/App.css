@@ -16,7 +16,7 @@ body{
 
 .timeline {
     /*max-width: 1000px;*/
-    flex: 0 0 1000px;
+    flex: 0 0 700px;
 
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
@@ -159,7 +159,7 @@ body{
 }
 .tweet-text{
     color: #D9D9D9;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .tweet-image{
@@ -180,7 +180,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    color: grey;
+    color: #f2f2f2;
     font-size: 1rem;
 }
 
@@ -198,12 +198,19 @@ body{
 }
 .sidebars{
   display:flex;
+  position:sticky;
+  top:0;
+  height:100vh;
+  margin:none;
+  padding:none;
 }
 .sidebar{
-  width:300px;
+  width:200px;
+  margin: 0 1rem;
+  
 }
 .icon{
-  height:70px;
+  height:60px;
   padding: 27px 0px 10px 0px;
   margin:5px;
 
@@ -212,22 +219,78 @@ body{
   display:block;
   flex-direction:column;
   align-items:center;
-  font-size:25px;
+  font-size:13px;
   font-family: 'Inter', sans-serif;
   justify-content:space-between;
   gap:2rem;
-  padding:1rem;
+  padding:10px;
 }
 .side-bar-icon{
   padding-right:1rem;
 }
 .side-bar-button{
   text-transform: capitalize;
-  padding: 1rem 5rem;
-  margin:2rem;
+  padding: 1rem 4rem;
+  margin:1rem;
   border: none;
   border-radius: 50px;
   background-color: #1D9BF0;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+
+.trends-editor-input {
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: #202327;
+    color: #fff;
+    resize: none;
+}
+.trends-input{
+  display:flex;
+  gap:30px;
+  align-items:center;
+  border-radius: 50px;
+  background-color: #202327;
+  padding:7px;
+  margin: 20px 10px;
+}
+
+.trendings{
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1.2rem 0;
+  font-size: 13px;
+}
+.trending{
+  display:flex;
+}
+
+.trendings span {
+  color: #6E767D;
+}
+
+.trendings p{ 
+  color: #6E767D;
+}
+
+.trendings h2{ 
+  font-size:15px;
+}
+
+.trendingListMessage{
+  width:90%;
+  display:block;
+  flex-direction:column;
+  font-family: 'Inter', sans-serif;
+  justify-content:space-between;
+  padding:1rem;
+  margin: 10px 1rem;
+  border-radius: 20px;
+  background-color: #202327;
+}
+.trendingTitle{
+  font-size: 22px;
 }

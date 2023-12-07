@@ -9,7 +9,7 @@ function SideBarIcon({ image }) {
 
 export default function SideBars() {
   return (
-    <>
+    <div className='sidebar'>
       <SideBarIcon image='src/components/icons/iconTwitter.svg' />
       <SideBarMenu icon='src/components/icons/sideBar-icon.png' h2='Home' />
       <SideBarMenu icon='src/components/icons/Sidebar_icon-Yes.png' h2='Explore' />
@@ -20,6 +20,6 @@ export default function SideBars() {
       <SideBarMenu icon='src/components/icons/sidebar-icon-contact.png' h2='Profil' />
       <SideBarMenu icon='src/components/icons/sidebar-icon-plus.png' h2='More' />
       <SideBarButton />
-    </>
+    </div>
   )
 }
