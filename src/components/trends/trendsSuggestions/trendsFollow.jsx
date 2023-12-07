@@ -10,8 +10,10 @@ export default function TrendsFollow ({trendingFollow}) {
       <div className='trendingFollow-title'>
           <div className='tweet-title'>
             <div className='trendings'>
+              <div className='tweet-title'>
               <h6>{trendingFollow.title}</h6>
-              <span>{trendingFollow.imageCertification}</span>
+              <span><img src={trendingFollow.imgverified} /></span>
+              </div>   
               <p>{trendingFollow.titleDescription}</p>    
             </div> 
             <Button tweet='follow'/>

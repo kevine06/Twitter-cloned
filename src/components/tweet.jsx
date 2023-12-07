@@ -29,6 +29,7 @@ function Tweet({ tweet }) {
                         <div className='tweet-image'> <img src={tweet.Image} alt="" /></div>                   
                     </div>
 
+
                     <div className='tweet-actions'>
                             <span className='tweet-action'>  
                                 <IconAction 
