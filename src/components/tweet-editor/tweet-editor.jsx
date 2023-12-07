@@ -1,5 +1,6 @@
 import React from 'react';
 import image from "../../images/profilePhoto.png";
+import Button from './tweetButton';
 
 
 function Avatar(){
@@ -18,13 +19,7 @@ function TweetEditorInput (){
   )
 }
 
-function Button(){
-  return (
-    <div >
-      <button className="button">tweet</button>
-    </div>
-  );
-}
+
 
 function Icons({icon}){
   return <div>
@@ -42,7 +37,7 @@ function TweetEditorButtons(){
         <Icons icon="src/components/icons/sourire.png"/>
         <Icons icon="src/components/icons/calendrier.png"/>
         </div>
-      <Button />
+      <Button tweet='tweet'/>
     </div>
   )
 }

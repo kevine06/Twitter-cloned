@@ -34,8 +34,8 @@ const data = [
     imgverified: imageCertification,
     content: 'Gardening boomed during the pandemic. Six Black writers share how has helped re-establish, and reimage, a connection to cultivation and the land.',
     details: {
-      actionCountRetweets: "48",
-      actionCountComments: "19",
+      actionCountRetweets: "488.8K",
+      actionCountComments: "10.9K",
       actionCountLikes: "482",
       actionCountShares: '45K',
 
@@ -54,7 +54,7 @@ const data = [
     content: 'BIG NEWS lol jk still Twetter.',
     details: {
       actionCountRetweets: "785.4K",
-      actionCountComments: "118.7K",
+      actionCountComments: "11K",
       actionCountLikes: "3.3M",
       actionCountShares:'33K',
 
@@ -73,7 +73,7 @@ const data = [
     content: 'hello litteraly everyone',
     details: {
       actionCountRetweets: "85.4K",
-      actionCountComments: "8K",
+      actionCountComments: "80K",
       actionCountLikes: "3.3M",
       actionCountShares: '66K',
 
@@ -91,8 +91,8 @@ const data = [
     imgverified: imageCertification,
     content: 'hello litteraly everyone',
     details: {
-      actionCountRetweets: "785.4K",
-      actionCountComments: "118.7K",
+      actionCountRetweets: "76.4K",
+      actionCountComments: "18.7K",
       actionCountLikes: "3.3M",
       actionCountShares: "88K",
 

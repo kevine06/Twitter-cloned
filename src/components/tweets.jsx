@@ -13,7 +13,6 @@ function Tweets() {
           <Tweet key={tweet.id} tweet={tweet} />
         ))}
       </div>
-
     </>
   );
 }

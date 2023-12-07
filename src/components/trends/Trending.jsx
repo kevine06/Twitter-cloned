@@ -1,5 +1,6 @@
 import InputTrends from './inputTrends'
 import TreandHeader from './trendHeader'
+import TrendSuggestions from './trendsSuggestions/trendsSuggestions.jsx'
 
 
 export default function TrendingList (){
@@ -7,7 +8,7 @@ export default function TrendingList (){
       <div>
         <InputTrends />
         <TreandHeader />
-        
+        <TrendSuggestions />
       </div>
     )
 }

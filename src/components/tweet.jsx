@@ -22,7 +22,7 @@ function Tweet({ tweet }) {
                             <p className='tweet-title-author'> {tweet.title} </p>
 
                             <span> <img src={tweet.imgverified} alt="" /> </span>
-                            <p  className='tweet-title-details'>  {tweet.titleDescription} </p>
+                            <p  className='tweet-title-details'>{tweet.titleDescription}</p>
                         </div>
 
                         <p className='tweet-text'> {tweet.content} </p>

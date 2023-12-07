@@ -1,3 +1,5 @@
+import ButtonSeeMoreTrending from './ButtonSeeMoreTrending.jsx'
+
 function IconTrendSetting () {
   return(
     <img src='src/components/icons/setting-icon.svg' alt="iconSetting" />
@@ -14,10 +16,7 @@ function HeaderTrend () {
 
 function Trends ({p, h2, span, icon}) {
   return(
-    <div style={{
-      display: 'flex',
-      justifyContent: "space-between",
-    }}> 
+    <div className="trendingNotifications"> 
       <div className="trendings">
           <p>{p}</p>
           <h2>{h2}</h2>
@@ -36,6 +35,7 @@ export default function TreandHeader() {
        <Trends p='Trending in turkey' h2='#SQUID' span='2,066 Tweets' icon='src/components/icons/continued.svg'/>
        <Trends p='Trending in turkey' h2='#SQUID' span='2,066 Tweets' icon='src/components/icons/continued.svg'/>
        <Trends p='Trending in turkey' h2='#SQUID' span='2,066 Tweets' icon='src/components/icons/continued.svg'/>
+      <ButtonSeeMoreTrending content='Show more'/>
     </div>
   );
 }
