@@ -1,0 +1,50 @@
+.profile {
+    background-image: url('../images/roro.jpg');
+    background-position-x: 50%;
+    background-position-Y: 100%;
+    position: relative;
+    height: 14rem;
+    margin: 20px;
+  }
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    left: 1rem;
+    top: 8rem;
+  }
+.avatarProfil{
+    margin: 3.5rem;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .avatarProfil h1{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+.avatarProfil h2{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+.avatarProfil p{
+    font-size: 12px;
+}
+.edit-profile-button {
+    background-color: #1da1f2;
+    float: end;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    right: 0.2rem;
+    top: 0rem;
+    position: absolute;
+  }
+  .edit-profile-button:hover {
+    background-color: #0f78b1;
+  }
+
+
