@@ -182,14 +182,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    color: #f2f2f2;
-    font-size: 1rem;
-}
 
-.tweet-actions svg {
-    width: 1.5rem;
-    height: auto;
-    color: #2F3336;
 }
 
 .tweet-action{
@@ -345,13 +338,11 @@ body{
     gap: 2px;
     font-size: 1rem;
 }
-
-.svg-element{
-    color: #ddd;
-    transition-duration: .3s;
+.buttonIconAction{
+    background: rgb(0, 0, 0);
 }
 
-.svg-element:hover{
-    color: red;
-    cursor: pointer;
-}
+
+  
+
+  
