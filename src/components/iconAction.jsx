@@ -1,11 +1,6 @@
 import { useState } from "react";
 
 function IconAction ({ icon, details }) {
-        const [useIcrement, setIncrement] = useState(0)
-
-      function handleclick () {
-        return (setIncrement + 1)
-      }
   return (
     <>
 

@@ -2,7 +2,7 @@ import SideBarMenu from './SideBarMenu';
 import SideBarButton from './SideBarabutton';
 import { Link } from 'react-router-dom';
 import IconSideBarHome from '../icons/sideBar-icon.png';
-import IconSideBarExplore from '../icons/SideBar_icon-Yes.png';
+import IconSideBarExplore from '../icons/sidebar-icon-Yes.png';
 import IconSideBarNotification from '../icons/sidebar-icon-cloche.png';
 import IconSideBarMessage from '../icons/sidebar-icon-message.png';
 import IconSideBarBookmaks from '../icons/sidebar-icon-save.png';
