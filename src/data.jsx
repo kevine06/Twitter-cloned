@@ -81,8 +81,6 @@ const data = [
 
   },
 
-
-  // ... Autres tweets
 ];
 
 export default data
