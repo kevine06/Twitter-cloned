@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import image from "../../images/profilePhoto.png";
 import Button from './tweetButton';
+const create = createContext()
 
 
 function Avatar(){

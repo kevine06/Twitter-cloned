@@ -338,13 +338,11 @@ body{
     gap: 2px;
     font-size: 1rem;
 }
-
-.svg-element{
-    color: #ddd;
-    transition-duration: .3s;
+.buttonIconAction{
+    background: rgb(0, 0, 0);
 }
 
-.svg-element:hover{
-    color: red;
-    cursor: pointer;
-}
+
+  
+
+  

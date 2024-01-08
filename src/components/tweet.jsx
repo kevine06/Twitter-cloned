@@ -4,9 +4,27 @@ import IconAction from "./iconAction";
 import groups from "./icons/Groups.png";
 import Share  from "./icons/Share.png";
 import Vector from "./icons/Vector.png";
-import like from "./icons/React.png";
+import likes from "./icons/likes.svg";
+import like from "./icons/like.svg";
+import { useState } from "react";
 
 function Tweet({ tweet }) {
+    const [isFavorite, setIsFavorite] = useState(false)
+    const star = isFavorite ? like : likes
+    const [addLike , RemoveLike ]=  useState(tweet.comments)
+    
+    function handleClick() {
+        if(star == like){  
+            RemoveLike(addLike - 1)
+            setIsFavorite(!isFavorite)
+         
+        } else{
+            RemoveLike(addLike + 1)
+           setIsFavorite(!isFavorite)
+        }  
+        return 
+    }
+  
     return (
 
         <>
@@ -31,10 +49,11 @@ function Tweet({ tweet }) {
 
 
                     <div className='tweet-actions'>
-                            <span className='tweet-action'>  
-                                <IconAction 
-                                    icon={like} 
-                                    details={tweet.details.actionCountComments}
+                            <span  onClick={() =>  setIsFavorite(!isFavorite)} onClick={() => handleClick()}
+                                className='tweet-action'>  
+                                <IconAction  
+                                    icon={star}
+                                    details={addLike}
                                 /> 
 
                             </span> 
@@ -42,21 +61,21 @@ function Tweet({ tweet }) {
                             <span className='tweet-action'>  
                                 <IconAction 
                                     icon={Share}  
-                                    details={tweet.details.actionCountRetweets} 
+                                    details={tweet.upload} 
                                 /> 
                             </span>
 
                             <span className='tweet-action'>  
                                 <IconAction 
                                     icon={groups} 
-                                    details={tweet.details.actionCountLikes}
+                                    details={tweet.Shares}
                                 /> 
                             </span>
 
                             <span className='tweet-action'>  
                                 <IconAction 
                                     icon={Vector} 
-                                    details={tweet.details.actionCountShares} 
+                                    details={tweet.likes} 
                                 /> 
                             </span>
                     </div>
