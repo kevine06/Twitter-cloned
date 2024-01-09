@@ -1,15 +1,11 @@
 
-
-function IconAction ({ icon, details}) {
+function IconAction ({ icon, count}) {
 
   return (
-    <>
+    <div className="tweet-action">
       <img  src={icon}  alt="Icon" /> 
-      <p className='tweet-actions'>{details}</p>
-        
-    </>
-
-
+      <p>{count}</p>     
+    </div>
   );
 };
 export default IconAction;
