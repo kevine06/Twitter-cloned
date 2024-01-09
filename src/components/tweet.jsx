@@ -4,9 +4,6 @@ import IconAction from "./IconAction";
 import groups from "./icons/Groups.png";
 import Share  from "./icons/Share.png";
 import Vector from "./icons/Vector.png";
-import likes from "./icons/likes.svg";
-import like from "./icons/like.svg";
-import { useState } from "react";
 import IconLikeButton from "./iconLikebutton";
 
 function Tweet({ tweet }) {
@@ -22,7 +19,7 @@ function Tweet({ tweet }) {
                         <div className='tweet-title'>
                             <p className='tweet-title-author'> {tweet.title} </p>
 
-                            <span> <img src={tweet.imgverified} alt="" /> </span>
+                            <span> <img src={tweet.certification} alt="" /> </span>
                             <p  className='tweet-title-details'>{tweet.titleDescription}</p>
                         </div>
 
