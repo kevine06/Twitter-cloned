@@ -20,7 +20,7 @@ function IconLikeButton ({ count }) {
 
   return (
     <div  className='tweet-action' onClick={() => handleClick()}>
-      <img  src={icon ? likes : like}  alt="Icon" /> 
+      <img className='iconHover' src={icon ? likes : like}  alt="Icon" /> 
       <p className='tweet-actions'>{compter}</p>      
     </div>
   );
