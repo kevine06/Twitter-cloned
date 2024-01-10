@@ -2,7 +2,6 @@ import likes from './icons/likes.svg'
 import like from './icons/like.svg'
 import { useState } from 'react';
 
-
 function IconLikeButton ({ count }) {
     const [icon, setIcon] = useState(false)
     const [compter, setCompter] = useState(count)

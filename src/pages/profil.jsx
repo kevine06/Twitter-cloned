@@ -11,7 +11,8 @@ function TwitterProfile() {
             <h2>@kemo</h2>
             <p>Web Developer. Lover of all things tech. Coffee addict.</p>
             <button className="edit-profile-button">Editer le profil</button>
-        </div>      
+        </div> 
+             
     </>
 
   );
