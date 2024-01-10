@@ -5,6 +5,7 @@ import { BrowserRouter, Routes , Route } from "react-router-dom";
 import('./style/reset.css')
 import('./style/App.css')
 import('./style/profil.css')
+import('./style/index.css')
 import { DataProvider } from "./context/UserContext.jsx";
 import Post from "./components/Post.jsx"
 import Replies from "./components/Replies.jsx"

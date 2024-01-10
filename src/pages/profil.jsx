@@ -12,13 +12,12 @@ function TwitterProfile() {
             <h2>@kemo</h2>
             <p>Web Developer. Lover of all things tech. Coffee addict.</p>
             <button className="edit-profile-button">Editer le profil</button>
-          <div>
-              <Link to="post">Post</Link>
+          <div className='flex justify-between mt-10 '>
+              <Link to="post" className='border-b-2 '>Post</Link>
               <Link to="replies">Replies</Link>
               <Link to="highlights">Highlights</Link>
               <Link to="media">Media</Link>
-              <Link to="likes">Likes</Link>
-              
+              <Link to="likes">Likes</Link>             
           </div>
         </div>      
     </>

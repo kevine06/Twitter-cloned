@@ -12,7 +12,7 @@ export default function TrendsFollow ({trendingFollow}) {
             <div className='trendings'>
               <div className='trendingFollow-title'>
               <h6>{trendingFollow.title}</h6>
-              <span><img src={trendingFollow.imgverified} /></span>
+              <span><img src={trendingFollow.certification} /></span>
               </div>   
               <p>{trendingFollow.titleDescription}</p>    
             </div> 
