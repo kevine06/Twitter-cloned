@@ -1,6 +1,6 @@
 
 import Avatar from  "./avatar";
-import IconAction from "./IconAction";
+import IconAction from "./iconAction";
 import groups from "./icons/Groups.png";
 import Share  from "./icons/Share.png";
 import Vector from "./icons/Vector.png";
