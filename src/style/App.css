@@ -161,6 +161,11 @@ body{
     color: #D9D9D9;
     font-size: 1rem;
 }
+/* .tweetIcon:hover{
+    background: #f918802f;
+    padding: 4px;
+    border-radius: 50%;
+} */
 
 .tweet-image{
     width: 100%;
@@ -182,14 +187,49 @@ body{
     gap: 3rem;
 
 }
-
+.tweet-action-vector,
 .tweet-action{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1px;
 }
-
+.tweet-vector,
+.tweetIcon{
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.tweet-action:hover {
+   color: #f918819f;
+   cursor: pointer;
+}
+.tweet-action:hover .tweetIcon {
+    background: #f918802f;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+ }
+ .tweet-action:hover .iconRed svg path{  
+    stroke: #f918819f;
+ }
+.iconRed svg path{
+    fill:none;
+    stroke: white;
+}
+.tweet-action-vector:hover {
+    color: #00BA7c;
+    fill: #00BA7c;
+}
+.tweet-action-vector:hover .tweet-vector{
+    background: #00BA7c;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.tweet-action-vector:hover .tweet-vector{  
+    stroke: #00BA7c;
+ }
 .sidebars{
   display:flex;
   position:sticky;
