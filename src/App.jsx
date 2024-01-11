@@ -6,7 +6,6 @@ import('./style/reset.css')
 import('./style/App.css')
 import('./style/profil.css')
 import('./style/index.css')
-import { DataProvider } from "./context/UserContext.jsx";
 import Post from "./components/Post.jsx"
 import Replies from "./components/Replies.jsx"
 import Highlights from "./components/Highlights.jsx"
@@ -19,7 +18,6 @@ export default function App() {
     <BrowserRouter >
       
       <Layout> 
-      <DataProvider> 
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/profilUser" element={<ProfilUser />} >
@@ -30,7 +28,6 @@ export default function App() {
                 <Route path="likes" element={<Likes />} />
             </Route>
           </Routes>
-          </DataProvider>
         </Layout>
       
     </BrowserRouter>
