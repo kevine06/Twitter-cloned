@@ -1,10 +1,10 @@
 
 import Avatar from  "./avatar";
 import IconAction from "./iconAction";
-import groups from "./icons/Groups.png";
 import Vector from "./icons/Vector.png";
 import IconLikeButton from "./iconLikebutton";
 import IconVectorButton from "./iconVectorButton";
+import InconSharesButton from "./InconSharesButton";
 
 function Tweet({ tweet }) {
     return (
@@ -27,11 +27,9 @@ function Tweet({ tweet }) {
                         <div className='tweet-image'> <img src={tweet.Image} alt="" /></div>                   
                     </div>
                     <div className='tweet-actions'> 
-                          <IconVectorButton count={tweet.upload} /> 
-                          <IconAction 
-                                    icon={groups} 
-                                    count={tweet.Shares} /> 
-                            <IconLikeButton count={tweet.likes}/>
+                        <IconVectorButton count={tweet.upload} /> 
+                        <InconSharesButton count={tweet.Shares} />
+                        <IconLikeButton count={tweet.likes}/>
                           <IconAction 
                                     icon={Vector} 
                                     count={tweet.likes} />

@@ -3,7 +3,7 @@ import vector from "./components/icons/Vector.png";
 import imageLogo from "./images/imageLogo.png"
 import tweetProfilePhoto from './images/tweet-profile-photo.png'
 import twitterImage from './components/icons/twitterImage.png'
-import imageCertification from './components/icons/Group.svg'
+import imageCertification from './components/icons/certifation.png'
 
 
 const data = [

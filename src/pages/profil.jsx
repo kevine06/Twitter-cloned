@@ -15,7 +15,7 @@ function TwitterProfile() {
           <div className='flex justify-between mt-10 '>
               <Link to="post" className='border-b-2 '>Post</Link>
               <Link to="replies">Replies</Link>
-              <Link to="highlights">Highlights</Link>
+              <Link to="npm rund">Highlights</Link>
               <Link to="media">Media</Link>
               <Link to="likes">Likes</Link>             
           </div>
