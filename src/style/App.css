@@ -199,8 +199,6 @@ body{
 .tweet-vector,
 .tweetIcon{
     padding: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .tweet-action:hover {

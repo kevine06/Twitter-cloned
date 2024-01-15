@@ -5,6 +5,7 @@ import Vector from "./icons/Vector.png";
 import IconLikeButton from "./iconLikebutton";
 import IconVectorButton from "./iconVectorButton";
 import InconSharesButton from "./InconSharesButton";
+import IconGroupButton from "./iconGroupButton"
 
 function Tweet({ tweet }) {
     return (
@@ -27,12 +28,10 @@ function Tweet({ tweet }) {
                         <div className='tweet-image'> <img src={tweet.Image} alt="" /></div>                   
                     </div>
                     <div className='tweet-actions'> 
-                        <IconVectorButton count={tweet.upload} /> 
+                        <IconVectorButton count={tweet.comments} /> 
                         <InconSharesButton count={tweet.Shares} />
                         <IconLikeButton count={tweet.likes}/>
-                          <IconAction 
-                                    icon={Vector} 
-                                    count={tweet.likes} />
+                        <IconGroupButton count={tweet.upload} />
                     </div>
                 </div>
             </div>

@@ -65,21 +65,19 @@ const data = [
 
 
   },
-
   {
-    id: 5,
+    id: 3,
     avatar: twitterImage,
-    Image: vector,
+    Image: null,
     title: "Twitter",
-    titleDescription: '@Twitter . Oct 4',
+    titleDescription: '@Twitter . Oct 29',
     certification: imageCertification,
-    content: 'hello litteraly everyone',
-    likes: "85",
-    comments: "11",
-    upload :"34",
-    Shares:'33',
-
-  },
+    content: 'BIG  Twetter.',
+    likes: "45",
+    comments: "180",
+    upload :"38",
+    Shares:'13',
+  }
 
 ];
 
