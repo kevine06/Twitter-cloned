@@ -11,12 +11,12 @@ import Replies from "./components/Replies.jsx"
 import Highlights from "./components/Highlights.jsx"
 import Media from "./components/Media.jsx"
 import Likes from "./components/Likes.jsx"
-
+import TweetProvider from "./components/contexts/tweet-provider";
 
 export default function App() {
   return (
     <BrowserRouter >
-   
+    <TweetProvider>
       <Layout> 
           <Routes>
             <Route path="/" element={<Home/>} />
@@ -29,7 +29,7 @@ export default function App() {
             </Route>
           </Routes>
         </Layout>
-      
+      </TweetProvider>
     </BrowserRouter>
    
   )
