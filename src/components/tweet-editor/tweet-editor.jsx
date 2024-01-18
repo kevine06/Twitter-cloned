@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState } from 'react';
 import image from "../../images/profilePhoto.png";
 import Button from './tweetButton';
 const create = createContext()
@@ -13,9 +13,18 @@ function Avatar(){
 }
 
 function TweetEditorInput (){
+  const [post, setPost] = useState("")
+
+  function handleClick () {
+    return setPost('')
+  }
   return(
-    <div>
-      <input className="tweet-editor-input" type="search" placeholder="what's happining"/> 
+    <div className='flex items-center'>
+      <input className="tweet-editor-input" type="search"  placeholder="what's happining"
+      value={post}
+      onChange={e => setPost(e.target.value)}
+      /> 
+      <Button tweet='tweet' setPost={handleClick}/>
     </div>
   )
 }
@@ -38,7 +47,7 @@ function TweetEditorButtons(){
         <Icons icon="src/components/icons/sourire.png"/>
         <Icons icon="src/components/icons/calendrier.png"/>
         </div>
-      <Button tweet='tweet'/>
+      
     </div>
   )
 }
