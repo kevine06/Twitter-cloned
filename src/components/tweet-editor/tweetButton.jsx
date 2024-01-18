@@ -1,7 +1,7 @@
-export default function Button({tweet, setPost}){
+export default function Button({tweet, handleClick}){
     return (
-      <div onClick={setPost}>
-        <button className="button">{tweet}</button>
+      <div >
+        <button onClick={handleClick} className="button">{tweet}</button>
       </div>
     );
   }

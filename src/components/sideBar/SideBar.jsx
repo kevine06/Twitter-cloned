@@ -10,7 +10,7 @@ import IconSideBarBookmaks from '../icons/sidebar-icon-save.png';
 import IconSideBarList from '../icons/sidebar-icon-bare.png';
 import IconSideBarProfil from '../icons/sidebar-icon-contact.png';
 import IconSideBarMore from '../icons/sidebar-icon-plus.png';
-import { UserContext } from '../../context/UserContext';
+
 
 
 function SideBarIcon({ TwitterLogoSideBar }) {
