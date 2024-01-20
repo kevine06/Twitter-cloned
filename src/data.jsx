@@ -1,5 +1,5 @@
 import tweetImage from './images/tweetImage.png'
-import vector from "./components/icons/Vector.png";
+// import vector from "./components/icons/Vector.png";
 import imageLogo from "./images/imageLogo.png"
 import tweetProfilePhoto from './images/tweet-profile-photo.png'
 import twitterImage from './components/icons/twitterImage.png'
@@ -66,7 +66,7 @@ const data = [
 
   },
   {
-    id: 3,
+    id: 5,
     avatar: twitterImage,
     Image: null,
     title: "Twitter",

@@ -21,8 +21,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/profilUser" element={<ProfilUser />} >
-                <Route path="post" element={<Post />} />
-                <Route path="replies" element={<Replies/>} />
+                <Route index element={<Post />} />
+                <Route path="replies" element={<Replies/>} /> 
                 <Route path="highlights" element={<Highlights />} />
                 <Route path="media" element={<Media />} />
                 <Route path="likes" element={<Likes />} />

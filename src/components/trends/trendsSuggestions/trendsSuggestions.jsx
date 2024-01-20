@@ -1,13 +1,15 @@
-import data from '../../../data.jsx'
+import { useContext } from 'react'
 import TrendsFollow from './trendsFollow.jsx'
 import ButtonSeeMoreTrending from '../ButtonSeeMoreTrending.jsx'
+import TweetContext from '../../contexts/tweet-contexts.js'
 
 
 export default function TrendSuggestions (){
+  const { dataTweet } = useContext(TweetContext)
   return(
   <>
     <div className='trendingListMessage'>
-      {data.map(trendingFollow => (
+      {dataTweet.map(trendingFollow => (
         <TrendsFollow key={trendingFollow.id} trendingFollow={trendingFollow}/>
         
       ))}

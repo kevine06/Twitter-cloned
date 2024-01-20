@@ -1,10 +1,11 @@
 import imageCertification from '../../components/icons/certifation.png'
+import image from "../../images/profilePhoto.png";
 
 function addTweet(tweet) {
   let key =  Math.random()*10000; // Génère une clé aléatoire
   let newTweets =  {
       id: key,
-      avatar: null,
+      avatar: image,
       Image: null,
       title: "CNN",
       titleDescription: '@CNN . 7m',

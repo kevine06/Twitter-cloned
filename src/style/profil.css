@@ -8,11 +8,11 @@
   }
 .profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     position:absolute;
     left: 1rem;
-    top: 8rem;
+    top: 12rem;
   }
 .avatarProfil{
     margin: 3.5rem;

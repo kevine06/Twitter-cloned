@@ -8,12 +8,13 @@ import InconSharesButton from "./InconSharesButton";
 import IconGroupButton from "./iconGroupButton"
 
 function Tweet({ tweet }) {
+
     return (
 
         <>
             <div className="tweet">
                 <div className='tweet-avatar'>
-                  <Avatar source={tweet.avatar} />
+                 <Avatar {...tweet} /> 
                 </div> 
                 <div className='tweet-content'>
                     <div className='tweet-body'>
