@@ -15,6 +15,8 @@ function TwitterProfile() {
   const tweet = Object.fromEntries([...searchParams]);
   const { dataTweet } = useContext(TweetContext);
 
+  const test = dataTweet.filter((item) => item.title == tweet.title)
+
   return (
     <>
       <div className="profile">
@@ -25,7 +27,7 @@ function TwitterProfile() {
         <p>{tweet.titleDescription}</p>
         <button className="edit-profile-button">Editer le profil</button>
         <div className='flex justify-between mt-10'>
-          <Link to="/profilUser/" className='border-b-2 '>Post</Link>
+          <Link index className='border-b-2 '>Post</Link>
           <Link to="/profilUser/replies">Replies</Link>
           <Link to="/profilUser/highlights">Highlights</Link>
           <Link to="/profilUser/media">Media</Link>
@@ -34,7 +36,7 @@ function TwitterProfile() {
         </div>
         
       </div>
-      {dataTweet.map(tweet => (
+      {test.map(tweet => (
             <div className="tweet">
                 <div className='tweet-avatar'>
                  <Avatar {...tweet} /> 
